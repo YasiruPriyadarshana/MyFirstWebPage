@@ -1,0 +1,89 @@
+* { margin: 0; padding: 0; }
+
+a{ text-decoration: none; }
+.clearfix{ overflow: auto; }
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;	
+}
+
+.top-bar{
+	width: 1000px;
+	background:maroon;
+}
+
+.top-bar-link{
+	float: left;
+}
+.top-bar-link ul{
+	margin: 15px;
+	list-style: none;
+}
+.top-bar-link ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+.top-bar-link ul li:last-child{
+	border: none;
+}
+.top-bar-link ul li a {
+	color: white; 
+}
+
+.site-search{
+	padding:3px 5px 3px 10px;
+	float: right;
+	margin: 15px;
+	background: white;
+	border-radius: 10px;
+}
+
+.site-search input{
+	border: none;
+	float: left;
+	padding:2px 5px;
+}
+
+.site-search button{
+	background: url(../img/icons/search.png);
+	width: 18px;
+	height: 18px;
+	border: none;
+	float: right;
+}
+header .logo { 
+	margin-top: 30px;
+	margin-left: 20px;
+	float: left;
+}
+
+header .logo h1{
+	font-size: 48px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+}
+
+header .socialmedia { 
+	float: right; 
+	margin-top: 50px;
+	margin-right: 20px;
+}
+header .socialmedia ul { 
+	list-style:  none;
+}
+header .socialmedia ul li {
+	display: inline;
+}
+header .socialmedia ul li a {
+	margin-left: 5px;
+	padding: 6px;
+	background: #444;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+} 
+header .socialmedia ul li a:hover {
+	background: orange;
+}
